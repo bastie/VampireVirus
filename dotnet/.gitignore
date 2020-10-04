@@ -1,0 +1,16 @@
+### BEGIN PROJECT
+docs/internal
+
+### BEGIN OS
+.DS_Store
+
+### BEGIN C#
+#use `./scripts/<os>/create` script
+
+# Compiled class file
+
+**/bin
+**/obj
+
+### EOF
+
