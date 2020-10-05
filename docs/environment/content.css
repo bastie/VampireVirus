@@ -1,0 +1,94 @@
+
+body {
+	background-image: url("coronavirus-5240711.png");
+    background-color: #101010;
+	background-color: hsla(0,0%,6%,0.90);
+    background-blend-mode: overlay;
+   	background-position: top right; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+ 	background-size: 30%; /* Resize the background image to cover the entire container */
+	
+	color: #903030;
+}
+
+details > * {
+  background-color: #101010;
+}
+summary > * {
+  background-color: #101010;
+}
+
+span.code {
+	color: #C02020;
+    unicode-bidi: embed;
+    font-family: monospace;
+    white-space: pre;	
+  width: 95%;
+}
+
+summary::-webkit-details-marker {
+  display: none
+}
+
+summary:after {
+  content: "\1f9db";
+  float: left;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+summary.dotnet:after {
+  content: "\1f577";
+  float: left;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+summary.java:after {
+  content: "\2615";
+  float: left;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+summary.python:after {
+  content: "\1f40d";
+  float: left;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+details[open] summary:after {
+  content: "\1f489";
+}
+
+details[open] > summary {
+  box-shadow: 3px 3px 4px #903030;
+  border-radius: 10px 10px 0px 0px;
+}
+details > summary {
+  border-radius: 10px 10px 0px 10px;
+  padding: 2px 6px;
+  box-shadow: 3px 3px 4px black;
+  width: 333px;
+  cursor: pointer;
+}
+
+details > p {
+  margin: 0;
+  padding: 2px 6px;
+  width: 95%;
+  box-shadow: 3px 3px 4px black;
+}
+details[open] > * {
+	padding: 10px 10px;
+	box-shadow: 3px 3px 4px #903030;
+}
+div.comment {
+	width: 95%;
+}
+div.code {
+	color: #C02020;
+    unicode-bidi: embed;
+    font-family: monospace;
+    white-space: pre;	
+    width: 95%;
+}
+

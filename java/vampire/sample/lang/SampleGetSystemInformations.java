@@ -11,23 +11,16 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  *  
- *  Copyright © 2011, 2020 Sebastian Ritter
+ *  Copyright © 2020 Sebastian Ritter
  */
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+package vampire.sample.lang;
+import java.lang.System;
 
-using java = biz.ritter.javapi;
-
-namespace vampire.sample.lang
+public class SampleGetSystemInformations
 {
-    class SampleGetSystemInformations
+    public static void main(String[] args)
     {
-        static void Main(string[] args)
-        {
-            java.util.Properties p = java.lang.SystemJ.getProperties();
-            p.list(java.lang.SystemJ.outJ);
-        }
+        java.util.Properties p = java.lang.System.getProperties();
+        p.list(java.lang.System.out);
     }
 }

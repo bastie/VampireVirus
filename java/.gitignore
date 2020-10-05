@@ -1,0 +1,15 @@
+### BEGIN PROJECT
+docs/internal
+
+### BEGIN OS
+.DS_Store
+
+### BEGIN Java
+#use `./scripts/<os>/create` script
+
+# Compiled class file
+
+**/bin
+
+### EOF
+

@@ -1,0 +1,2 @@
+VampireApi >= 0.3.1
+

@@ -1,0 +1,18 @@
+### BEGIN PROJECT
+docs/internal
+
+### BEGIN OS
+.DS_Store
+
+### BEGIN Projects
+#use `./scripts/<os>/create` script
+.settings/
+.pydevproject
+.project
+
+# Compiled class file
+
+**/bin
+
+### EOF
+
